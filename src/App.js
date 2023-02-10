@@ -1,11 +1,23 @@
 import React from 'react'
 import './style/style.scss';
+import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
+import { CTA, Brand, Navbar } from './components';
 
- const App = () => {
+const App = () => {
   return (
-    <div>
-      <h1>Welcome</h1>
-      
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+
     </div>
   )
 }
