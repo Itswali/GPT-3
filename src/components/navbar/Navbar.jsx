@@ -33,7 +33,7 @@ export default function Navbar() {
           <img src={logo} alt="logo" />
         </div>
         <div className="the__navbar-links_container">
-          {/* <Menu /> */}
+          <Menu />
         </div>
       </div>
       <div className="the__navbar-sign">
