@@ -39,7 +39,7 @@
 ### LIVE DEMO <a name="-live-demo-"></a>
 
 ## 🛫 Launch
- ***[🌐 CLick Here to Launch 🧑‍✈️](https://GPT-3.onrender.com)***
+ ***[🌐 CLick Here to Launch 🧑‍✈️](https://gpt-3-z9vl.onrender.com)***
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
