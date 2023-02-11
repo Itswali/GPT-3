@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-array-index-key */
+import React from 'react';
 import Feature from '../../components/feature/Feature';
 
 const featuresData = [

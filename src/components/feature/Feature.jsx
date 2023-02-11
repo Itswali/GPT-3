@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import React from 'react';
 
 const Feature = ({ title, text }) => (
   <div className="gpt3__features-container__feature">
@@ -13,4 +14,3 @@ const Feature = ({ title, text }) => (
 );
 
 export default Feature;
-

@@ -1,0 +1,20 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+      }
+    ],
+    "scss/at-rule-no-unknown":  [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+      }
+    ],
+    "csstree/validator": true
+  },
+  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/style*.scss", "**/src/components/article/_article*.scss",  "**src/containers/whatGPT3/_whatpgt*.scss", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
+}
