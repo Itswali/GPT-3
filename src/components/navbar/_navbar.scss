@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 2rem 6rem;
 }
 
@@ -12,7 +11,6 @@ p {
   font-size: 18px;
   line-height: 25px;
   text-transform: capitalize;
-
   margin: 0 1rem;
   cursor: pointer;
 }
@@ -28,12 +26,10 @@ p {
   margin-right: 2rem;
 
   img {
-  width: 62.56px;
-  height: 16.02px;
+    width: 62.56px;
+    height: 16.02px;
   }
-
 }
-
 
 .the__navbar-links_container {
   display: flex;
@@ -46,13 +42,11 @@ p {
   align-items: center;
 }
 
-
-
 .the__navbar-sign button,
 .the__navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
-  background: #FF4820;
+  background: #ff4820;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -64,23 +58,19 @@ p {
 
 .the__navbar-menu {
   margin-left: 1rem;
-
   display: none;
   position: relative;
-  
+
   svg {
     cursor: pointer;
   }
-
 }
-
 
 .the__navbar-menu_container {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  
   text-align: end;
   background: var(--color-footer);
   padding: 2rem;
@@ -90,12 +80,11 @@ p {
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 
   p {
-  margin: 1rem 0;
+    margin: 1rem 0;
   }
-
 }
 
 .the__navbar-menu_container-links-sign {
@@ -104,34 +93,34 @@ p {
 
 @media screen and (max-width: 1050px) {
   .the__navbar-links_container {
-      display: none;
+    display: none;
   }
 
   .the__navbar-menu {
-      display: flex;
+    display: flex;
   }
 }
 
 @media screen and (max-width: 700px) {
   .the__navbar {
-      padding: 2rem 4rem;
+    padding: 2rem 4rem;
   }
 }
 
 @media screen and (max-width: 550px) {
   .the__navbar {
-      padding: 2rem;
+    padding: 2rem;
   }
 
   .the__navbar-sign {
-      display: none;
+    display: none;
   }
 
   .the__navbar-menu_container {
-      top: 20px;
+    top: 20px;
   }
 
   .the__navbar-menu_container-links-sign {
-      display: block;
+    display: block;
   }
 }
