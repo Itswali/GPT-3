@@ -3,11 +3,11 @@ import possibilityImage from '../../assets/possibility.png';
 
 export default function Possibility() {
   return (
-    <div className="gpt3__possibility section__padding" id="possibility">
-      <div className="gpt3__possibility-image">
+    <div className="possibility section__padding" id="possibility">
+      <div className="possibility-image">
         <img src={possibilityImage} alt="possibility" />
       </div>
-      <div className="gpt3__possibility-content">
+      <div className="possibility-content">
         <h4>Request Early Access to Get Started</h4>
         <h1 className="gradient__text">
           The possibilities are
