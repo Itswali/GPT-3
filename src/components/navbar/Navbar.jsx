@@ -26,20 +26,20 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="the__navbar">
-      <div className="the__navbar-links">
-        <div className="the__navbar-links-logo">
+    <div className="navbar">
+      <div className="navbar-links">
+        <div className="navbar-links-logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="the__navbar-links_container">
+        <div className="navbar-links_container">
           <Menu />
         </div>
       </div>
-      <div className="the__navbar-sign">
+      <div className="navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>
-      <div className="the__navbar-menu">
+      <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="fff"
@@ -54,10 +54,10 @@ export default function Navbar() {
           />
         )}
         {toggleMenu && (
-          <div className="the__navbar-menu_container scale-up-center">
-            <div className="the__navbar-menu_container-links">
+          <div className="navbar-menu_container scale-up-center">
+            <div className="navbar-menu_container-links">
               <Menu />
-              <div className="the__navbar-menu_container-links-sign">
+              <div className="navbar-menu_container-links-sign">
                 <p>Sign in</p>
                 <button type="button">Sign up</button>
               </div>
