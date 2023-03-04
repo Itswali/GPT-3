@@ -17,7 +17,6 @@ export default function Footer() {
           <img src={gpt3Logo} alt="gpt3_logo" />
           <p>
             Crechterwoord K12 182 DK Alknjkcb,
-            <br />
             {' '}
             All Rights Reserved
           </p>
