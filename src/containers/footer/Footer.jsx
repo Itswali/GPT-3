@@ -39,7 +39,7 @@ export default function Footer() {
           <h4>Get in touch</h4>
           <p>Islamabasd, Pakistan</p>
           <p>+923095925592</p>
-          <p>luckywali0987@gmail.com</p>
+          <p>luckywali0986@gmail.com</p>
         </div>
       </div>
 
