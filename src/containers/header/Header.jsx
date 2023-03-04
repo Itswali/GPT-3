@@ -3,8 +3,8 @@ import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 
 const Header = () => (
-  <div className="gpt3__header section__padding" id="home">
-    <div className="gpt3__header-content">
+  <div className="header section__padding" id="home">
+    <div className="header-content">
       <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
       <p>
         Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise
@@ -13,18 +13,18 @@ const Header = () => (
         allow asked of.
       </p>
 
-      <div className="gpt3__header-content__input">
+      <div className="header-content__input">
         <input type="email" placeholder="Your Email Address" />
         <button type="button">Get Started</button>
       </div>
 
-      <div className="gpt3__header-content__people">
+      <div className="header-content__people">
         <img src={people} alt="people" />
         <p>More than 1M people requested acess to Gpt in less than a Month.</p>
       </div>
     </div>
 
-    <div className="gpt3__header-image">
+    <div className="header-image">
       <img src={ai} alt="ai" />
     </div>
   </div>
